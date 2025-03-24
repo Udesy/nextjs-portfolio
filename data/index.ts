@@ -1,3 +1,5 @@
+import { title } from "process";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -72,7 +74,7 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
+    title: "Yc Directory",
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
@@ -80,7 +82,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
+    title: "Brainwave",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
@@ -107,33 +109,38 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Working with Uddeshya was a seamless experience. His attention to detail and ability to translate ideas into stunning websites exceeded our expectations. Highly recommend his expertise!",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
+    img: "https://randomuser.me/api/portraits/men/32.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Uddeshya's work on our website was truly outstanding. His ability to combine design and functionality created a site that is both beautiful and highly efficient. Amazing work!",
+    name: "Sarah Williams",
+    title: "CEO of BrightVision Marketing",
+    img: "https://randomuser.me/api/portraits/women/45.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I was blown away by Uddeshya's skill in bringing our brand to life online. His designs are sleek, modern, and incredibly user-friendly. It was a fantastic collaboration!",
+    name: "David Carter",
+    title: "Founder of NovaTech Solutions",
+    img: "https://randomuser.me/api/portraits/men/56.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "From start to finish, Uddeshya provided exceptional service. He understood our needs perfectly and delivered a website that not only looks amazing but performs flawlessly. Highly recommended!",
+    name: "Jessica Brown",
+    title: "CMO of Elevate Digital",
+    img: "https://randomuser.me/api/portraits/women/22.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Uddeshya is a true professional. His ability to blend creativity with functionality made our website a standout in the industry. We're thrilled with the results!",
+    name: "James Anderson",
+    title: "COO of Vertex Innovations",
+    img: "https://randomuser.me/api/portraits/men/78.jpg",
   },
 ];
 
@@ -213,5 +220,36 @@ export const socialMedia = [
   {
     id: 3,
     img: "/link.svg",
+  },
+];
+
+export const processCard = [
+  {
+    id: 0,
+    btntitle: "Phase1",
+    title: "Planning & Strategy",
+    desc: "We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements.",
+    containerClassName: "bg-emerald-900",
+  },
+
+  {
+    id: 1,
+    btntitle: "Phase 2",
+    title: "Development & Progress Update",
+    desc: "Once we agree on the plan, I cue my lofi playlist and dive into coding. From initial sketches to polished code, I keep you updated every step of the way.",
+    containerClassName: "bg-black",
+    colors: [
+      [236, 72, 153],
+      [232, 121, 249],
+    ],
+  },
+
+  {
+    id: 2,
+    btntitle: "Phase 3",
+    title: "Development & Launch",
+    desc: "This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building your website from the ground up.",
+    containerClassName: "bg-sky-600",
+    colors: [[125, 211, 252]],
   },
 ];
