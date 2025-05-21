@@ -13,8 +13,9 @@ const Process = () => {
         Design. <span className="text-purple ">Develop.</span> Deliver.
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4 ">
-        {processCard.map((item) => (
+        {processCard.map((item, index) => (
           <Card
+            key={index}
             title={item.title}
             icon={<AceternityIcon order={item.btntitle} />}
             description={item.desc}
