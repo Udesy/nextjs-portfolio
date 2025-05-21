@@ -75,26 +75,26 @@ export const projects = [
   {
     id: 1,
     title: "Yc Directory",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    des: "YC Directory is a minimal blog platform designed to share innovative startup ideas, explore emerging businesses, and connect with fellow founders.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://yc-directory-liard-one.vercel.app/",
   },
   {
     id: 2,
     title: "Brainwave",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    des: "Brainwave is a modern landing page web app featuring smooth animations, interactive elements, and a clean design — perfect for showcasing products with style and clarity.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://brainwave-ruddy-omega.vercel.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "focuSphere - A focus timer app",
+    des: "FocusSphere is a focus timer with a GitHub-style heatmap and bar chart, helping you track and analyze your productivity effortlessly.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://focu-sphere.vercel.app/",
   },
   {
     id: 4,
@@ -102,7 +102,7 @@ export const projects = [
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://iphone15-website-one.vercel.app/",
   },
 ];
 
