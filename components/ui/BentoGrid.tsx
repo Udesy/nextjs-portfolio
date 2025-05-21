@@ -147,7 +147,7 @@ export const BentoGridItem = ({
                     loop: copied,
                     autoplay: copied,
                     animationData,
-                    renderedSettings: {
+                    rendererSettings: {
                       preserveAspectRatio: "xMidYMid slice",
                     },
                   }}
